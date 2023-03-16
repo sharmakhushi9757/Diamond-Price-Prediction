@@ -74,7 +74,7 @@ def predict(carat, cut, color, clarity, depth, table, x, y, z):
 
 st.title('Diamond Price Predictor')
 
-st.image("https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.businesstoday.in%2Fmagazine%2Fback-of-the-book%2Fstory%2Fhow-lab-grown-diamonds-are-taking-the-jewellery-market-by-storm-347409-2022-09-16&psig=AOvVaw2pyi-DXr8T3E1FehGq1Xsc&ust=1679060059046000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCJDw8aTI4P0CFQAAAAAdAAAAABAE")
+st.image("https://akm-img-a-in.tosshub.com/businesstoday/images/story/202209/92-93-1-sixteen_nine.jpg?size=948:533")
 
 #st.image("""https://www.thestreet.com/.image/ar_4:3%2Cc_fill%2Ccs_srgb%2Cq_auto:good%2Cw_1200/MTY4NjUwNDYyNTYzNDExNTkx/why-dominion-diamonds-second-trip-to-the-block-may-be-different.png""")
 st.header('Enter the characteristics of the diamond:')
