@@ -3,6 +3,16 @@ import streamlit as st
 import pandas as pd
 import sklearn
 
+
+# Set page style
+st.set_page_config(
+    page_title="Diamond Price Prediction App",
+    page_icon="💎",
+    layout="wide"
+)
+
+
+
 #Loading up the Regression model we created
 model = xgb.XGBRegressor()
 model.load_model('xgb_model.json')
@@ -78,3 +88,5 @@ z = st.number_input('Diamond Height (Z) in mm:', min_value=0.1, max_value=100.0,
 if st.button('Predict Price'):
     price = predict(carat, cut, color, clarity, depth, table, x, y, z)
     st.success(f'The predicted price of the diamond is ${price[0]:.2f} USD')
+
+
