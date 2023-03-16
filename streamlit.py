@@ -1,4 +1,3 @@
-pip install sklearn
 import sklearn
 import xgboost as xgb
 import streamlit as st
