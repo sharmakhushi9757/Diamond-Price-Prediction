@@ -1,4 +1,5 @@
-!pip install sklearn
+pip install sklearn
+import sklearn
 import xgboost as xgb
 import streamlit as st
 import pandas as pd
